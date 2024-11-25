@@ -10,7 +10,7 @@ export default {
   theme: {
   	extend: {
 		backgroundImage:{
-			'home-img':"url('/images/home1.jpg')"
+			'home-img':"url('/images/home-img.jpg')"
 		},
   		colors: {
   			background: 'hsl(var(--background))',
@@ -61,5 +61,5 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+//   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
