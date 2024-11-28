@@ -1,3 +1,14 @@
+
+# Commits
+1. [x] Adding a basic Home page to the computer repair shop.
+2. [x] Added light and dark mode.
+3. [x] Set up Sentry for app support.
+4. [x] Implement user authentication with Kinde.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
