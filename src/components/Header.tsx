@@ -4,6 +4,7 @@ import NavButton from "./NavButton";
 import Link from "next/link";
 import { ModeToggle, Toggle } from "./ModeToggle";
 import LoginPage from "@/app/login/page";
+import LogoutPage from "@/app/logout/page";
 export default function Header() {
   return (
     <header className="animate-slide bg-background h-12 p-2 border-b sticky top-0 z-20">
@@ -25,7 +26,8 @@ export default function Header() {
           <NavButton href="/tickets" label="Tickets" icon={File} />
           <NavButton href="/customers" label="Customers" icon={UserRound} />
           <ModeToggle />
-          <LoginPage/>
+          <LoginPage />
+          <LogoutPage />
         </div>
       </div>
     </header>
